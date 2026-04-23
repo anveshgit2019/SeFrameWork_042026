@@ -23,7 +23,7 @@
 					<version>3.5.5</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>testng.xml</suiteXmlFile>
+							<suiteXmlFile>Grouping.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
@@ -42,13 +42,19 @@
   <version>4.21.0</version> <!-- latest stable -->
 </dependency>
 
-		<!-- Source: https://mvnrepository.com/artifact/org.apache.poi/poi -->
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi</artifactId>
-			<version>5.5.1</version>
-			<scope>compile</scope>
-		</dependency>
+		<!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.43.0</version>
+    <scope>compile</scope>
+</dependency> -->
+
+<!-- <dependency>
+			<groupId>seleniumwebdriver</groupId>
+			<artifactId>seleniumwebdriver</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>-->
 
 		<!-- Source: https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 		<dependency>
@@ -119,10 +125,6 @@
 			<scope>compile</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>seleniumwebdriver</groupId>
-			<artifactId>seleniumwebdriver</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		
 	</dependencies>
 </project>
